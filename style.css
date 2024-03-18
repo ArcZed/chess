@@ -1,0 +1,24 @@
+
+.chessboard {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    flex-wrap: wrap;
+    border: 5px solid black;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    flex: 1 0 auto;
+    
+}
+.even {
+    background-color: black;
+}
+.odd {
+    background-color: white;
+}
